@@ -1,0 +1,8 @@
+# Вспомогательные файлы
+*.log*
+node_modules/
+.sass-cache
+package-lock.json
+
+# Папка с собранными файлами проекта
+build/
