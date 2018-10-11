@@ -1,16 +1,21 @@
 .badge {
   width: 80px;
   height: 80px;
+  padding: 10px;
   text-align: center;
   background-color: $default;
   border-radius: 50%;
 
   &__text {
+    display: block;
     color: $white;
     font-size: 20px;
+    line-height: 1;
 
     &--num {
+      display: block;
       font-size: 40px;
+      font-weight: normal;
     }
   }
 
