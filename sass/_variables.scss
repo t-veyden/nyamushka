@@ -1,0 +1,25 @@
+// colours
+$blue: #1698d9;
+$blue-light: #2ea8e6;
+$magenta: #d91667;
+$magenta-light: #e62e7a;
+
+$gray: #b3b3b3;
+$milky: #f2f2f2;
+$white: #fff;
+$black: #000;
+
+$default: $blue;
+$default-hover: $blue-light;
+
+$selected: $magenta;
+$selected-hover: $magenta-light;
+
+$disabled: $gray;
+$bg-light: $milky;
+
+$text-colour: #666;
+
+// media
+$tablet: "min-width: " + 768px;
+$desktop: "min-width: " + 1280px;
