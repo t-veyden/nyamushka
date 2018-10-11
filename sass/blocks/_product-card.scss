@@ -1,0 +1,81 @@
+.product-card {
+  width: 324px;
+
+  &__wrapper {
+    position: relative;
+    height: 484px;
+    color: $text-colour;
+    cursor: pointer;
+
+    &--selected {
+      .product-card__border {
+        stroke: $selected;
+      }
+    }
+  }
+
+  &__title {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 48px;
+    color: $black;
+    line-height: 0.7;
+    &--small {
+      font-size: 24px;
+    }
+  }
+
+  &__catch {
+    padding: 20px 0 0 48px;
+    color: $text-colour;
+  }
+
+  &__list {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 48px;
+  }
+
+  &__cancel {
+    color: $magenta-light;
+  }
+
+  &__border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    stroke: $default;
+    fill: $bg-light;
+    z-index: -1;
+  }
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  &__badge {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  &__caption {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  &__btn {
+    padding-right: 0;
+    padding-left: 0;
+    color: $default;
+    border: none;
+    border-bottom: 1px dashed $default;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover {
+      color: $default-hover;
+    }
+  }
+}
