@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: $white;
+  background: url("../img/bg.jpg") repeat center #1a1a1a;
+  background-position: 0 0;
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}

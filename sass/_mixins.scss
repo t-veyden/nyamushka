@@ -1,0 +1,10 @@
+@mixin container() {
+  width: 320px;
+  margin: 0 auto;
+  @media ($tablet) {
+    width: 648px;
+  }
+  @media ($desktop) {
+    width: 1120px;
+  }
+}
