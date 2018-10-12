@@ -20,7 +20,8 @@ if (window.Element && !Element.prototype.closest) {
     cardsSection: ".section",
     card: ".product-card",
     cardBtn: "product-card__btn",
-    cardSelected: "product-card--selected"
+    cardSelected: "product-card--selected",
+    cardDisabled: "product-card--disabled"
   };
 
   var eventHandler = function(target, el, state) {
@@ -41,7 +42,7 @@ if (window.Element && !Element.prototype.closest) {
     var card = evt.target.closest(domStrings.card);
     var btn = evt.target.classList.contains(domStrings.cardBtn);
 
-    if (card || btn) {
+    if ((card || btn) && !card.classList.contains(domStrings.cardDisabled)) {
       var cardWrapper = card.firstElementChild;
       var defaultHover = cardWrapper.classList.contains("hover-default");
       var hoverType = defaultHover ? "default" : "selected";
@@ -49,9 +50,9 @@ if (window.Element && !Element.prototype.closest) {
       card.classList.toggle(domStrings.cardSelected);
 
       cardWrapper.classList.remove("hover-" + hoverType);
-    }
 
-    eventHandler(card, cardWrapper, defaultHover);
+      eventHandler(card, cardWrapper, defaultHover);
+    }
   };
 
   document

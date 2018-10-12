@@ -3,6 +3,7 @@ $blue: #1698d9;
 $blue-light: #2ea8e6;
 $magenta: #d91667;
 $magenta-light: #e62e7a;
+$yellow: #ffff66;
 
 $gray: #b3b3b3;
 $milky: #f2f2f2;
@@ -19,6 +20,7 @@ $disabled: $gray;
 $bg-light: $milky;
 
 $text-colour: #666;
+$text-warning: $yellow;
 
 // media
 $tablet: "min-width: " + 768px;
