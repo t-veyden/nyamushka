@@ -5,3 +5,37 @@
 .container {
   @include container;
 }
+
+.product-card__wrapper {
+  &.hover-default:hover {
+    .product-card {
+      &__border {
+        stroke: $default-hover;
+      }
+
+      &__badge {
+        background-color: $default-hover;
+      }
+    }
+  }
+
+  &.hover-selected:hover {
+    .product-card {
+      &__border {
+        stroke: $selected-hover;
+      }
+
+      &__badge {
+        background-color: $selected-hover;
+      }
+
+      &__cancel {
+        display: block;
+      }
+
+      &__catch {
+        display: none;
+      }
+    }
+  }
+}

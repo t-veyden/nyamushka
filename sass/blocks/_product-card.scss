@@ -6,10 +6,24 @@
     height: 484px;
     color: $text-colour;
     cursor: pointer;
+  }
 
-    &--selected {
-      .product-card__border {
+  &--selected {
+    .product-card {
+      &__border {
         stroke: $selected;
+      }
+
+      &__badge {
+        background-color: $selected;
+      }
+
+      &__caption--default {
+        display: none;
+      }
+
+      &__caption--selected {
+        display: block;
       }
     }
   }
@@ -37,7 +51,9 @@
   }
 
   &__cancel {
+    padding: 20px 0 0 48px;
     color: $magenta-light;
+    display: none;
   }
 
   &__border {
@@ -64,6 +80,10 @@
   &__caption {
     font-size: 13px;
     text-align: center;
+
+    &--selected {
+      display: none;
+    }
   }
 
   &__btn {
