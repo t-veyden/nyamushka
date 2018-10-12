@@ -5,18 +5,22 @@
 }
 
 html {
+  height: 100%;
   font-size: 16px;
+  background: url("../img/bg.jpg") repeat center #1a1a1a;
+  background-position: 0 0;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
   margin: 0;
-  font-family: "Trebuchet MS", "Arial", sans-serif;
-  font-size: 16px;
+  font-family: "Trebuchet MS Regular", "Arial", sans-serif;
   font-weight: normal;
   line-height: 1.2;
   color: $white;
-  background: url("../img/bg.jpg") repeat center #1a1a1a;
-  background-position: 0 0;
   box-sizing: border-box;
 }
 
