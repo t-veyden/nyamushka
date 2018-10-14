@@ -5,100 +5,101 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Exo+2:100" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <title>Нямушка</title>
 </head>
 
 <body>
-  <header class="header">
-    <h1 class="header__title  visually-hidden">Магазин корма для котов</h1>
-    <p class="header__slogan">Ты сегодня покормил кота?</p>
-  </header>
-  <main class="container">
-    <section class="section section--cat-food">
-      <h2 class="section__title  visually-hidden">Виды корма</h2>
-      <article class="product-card">
-        <div class="product-card__wrapper  hover-default">
-          <svg class="product-card__border" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="326px" height="486px">
-            <path fill-rule="evenodd" stroke-width="4px" stroke-linecap="butt" stroke-linejoin="miter" d="M310.000,482.000 L14.000,482.000 C7.373,482.000 2.000,476.627 2.000,470.000 L2.000,45.000 L45.000,2.000 L310.000,2.000 C316.627,2.000 322.000,7.372 322.000,14.000 L322.000,470.000 C322.000,476.627 316.627,482.000 310.000,482.000 Z" />
-          </svg>
-          <div class="product-card__info">
-            <p class="product-card__catch">Сказочное заморское яство</p>
-            <p class="product-card__cancel">Котэ не одобряет?</p>
-            <h2 class="product-card__title">Нямушка <span class="product-card__title--small">с фуа-гра</span></h2>
-            <ul class="product-card__list">
-              <li><b>10</b> порций</li>
-              <li>мышь в подарок</li>
-            </ul>
+  <div class="flex-wrapper">
+    <header class="header">
+      <h1 class="header__title  visually-hidden">Магазин корма для котов</h1>
+      <p class="header__slogan">Ты сегодня покормил кота?</p>
+    </header>
+    <main class="container">
+      <section class="section section--cat-food">
+        <h2 class="section__title  visually-hidden">Виды корма</h2>
+        <article class="product-card">
+          <div class="product-card__wrapper  hover-default">
+            <svg class="product-card__border" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="326px" height="486px">
+              <path fill-rule="evenodd" stroke-width="4px" stroke-linecap="butt" stroke-linejoin="miter" d="M310.000,482.000 L14.000,482.000 C7.373,482.000 2.000,476.627 2.000,470.000 L2.000,45.000 L45.000,2.000 L310.000,2.000 C316.627,2.000 322.000,7.372 322.000,14.000 L322.000,470.000 C322.000,476.627 316.627,482.000 310.000,482.000 Z" />
+            </svg>
+            <div class="product-card__info">
+              <p class="product-card__catch">Сказочное заморское яство</p>
+              <p class="product-card__cancel">Котэ не одобряет?</p>
+              <h2 class="product-card__title">Нямушка <span class="product-card__title--small">с фуа-гра</span></h2>
+              <ul class="product-card__list">
+                <li><b>10</b> порций</li>
+                <li>мышь в подарок</li>
+              </ul>
+            </div>
+            <img src="img/cat.png" alt="серый пушистый кот с логотипом компании на ошейнике" width="260" height="276"
+              class="product-card__img">
+            <div class="product-card__badge  badge">
+              <span class="badge__text"><b class="badge__text--num">0,5</b> кг</span>
+            </div>
           </div>
-          <img src="img/cat.png" alt="серый пушистый кот с логотипом компании на ошейнике" width="260" height="276"
-            class="product-card__img">
-          <div class="product-card__badge  badge">
-            <span class="badge__text"><b class="badge__text--num">0,5</b> кг</span>
+          <p class="product-card__caption  product-card__caption--default">
+            Чего сидишь? Порадуй котэ, <button type="button" class="product-card__btn">купи.</button>
+          </p>
+          <p class="product-card__caption  product-card__caption--selected">Печень утки разварная с артишоками.</p>
+          <p class="product-card__caption  product-card__caption--disabled">Печалька, с фуа-гра закончился.</p>
+        </article>
+        <article class="product-card">
+          <div class="product-card__wrapper  hover-default">
+            <svg class="product-card__border" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="326px" height="486px">
+              <path fill-rule="evenodd" stroke-width="4px" stroke-linecap="butt" stroke-linejoin="miter" d="M310.000,482.000 L14.000,482.000 C7.373,482.000 2.000,476.627 2.000,470.000 L2.000,45.000 L45.000,2.000 L310.000,2.000 C316.627,2.000 322.000,7.372 322.000,14.000 L322.000,470.000 C322.000,476.627 316.627,482.000 310.000,482.000 Z" />
+            </svg>
+            <div class="product-card__info">
+              <p class="product-card__catch">Сказочное заморское яство</p>
+              <p class="product-card__cancel">Котэ не одобряет?</p>
+              <h2 class="product-card__title">Нямушка <span class="product-card__title--small">с рыбой</span></h2>
+              <ul class="product-card__list">
+                <li><b>40</b> порций</li>
+                <li><b>2</b> мыши в подарок</li>
+              </ul>
+            </div>
+            <img src="img/cat.png" alt="серый пушистый кот с логотипом компании на ошейнике" width="260" height="276"
+              class="product-card__img">
+            <div class="product-card__badge badge"><span class="badge__text"><b class="badge__text--num">2</b> кг</span></div>
           </div>
-        </div>
-        <p class="product-card__caption  product-card__caption--default">
-          Чего сидишь? Порадуй котэ, <button type="button" class="product-card__btn">купи.</button>
-        </p>
-        <p class="product-card__caption  product-card__caption--selected">Печень утки разварная с артишоками.</p>
-        <p class="product-card__caption  product-card__caption--disabled">Печалька, с фуа-гра закончился.</p>
-      </article>
-      <article class="product-card">
-        <div class="product-card__wrapper  hover-default">
-          <svg class="product-card__border" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="326px" height="486px">
-            <path fill-rule="evenodd" stroke-width="4px" stroke-linecap="butt" stroke-linejoin="miter" d="M310.000,482.000 L14.000,482.000 C7.373,482.000 2.000,476.627 2.000,470.000 L2.000,45.000 L45.000,2.000 L310.000,2.000 C316.627,2.000 322.000,7.372 322.000,14.000 L322.000,470.000 C322.000,476.627 316.627,482.000 310.000,482.000 Z" />
-          </svg>
-          <div class="product-card__info">
-            <p class="product-card__catch">Сказочное заморское яство</p>
-            <p class="product-card__cancel">Котэ не одобряет?</p>
-            <h2 class="product-card__title">Нямушка <span class="product-card__title--small">с рыбой</span></h2>
-            <ul class="product-card__list">
-              <li><b>40</b> порций</li>
-              <li><b>2</b> мыши в подарок</li>
-            </ul>
+          <p class="product-card__caption  product-card__caption--default">
+            Чего сидишь? Порадуй котэ, <button type="button" class="product-card__btn">купи.</button>
+          </p>
+          <p class="product-card__caption  product-card__caption--selected">Головы щучьи с чесноком да свежайшая
+            сёмгушка.</p>
+          <p class="product-card__caption  product-card__caption--disabled">Печалька, с рыбой закончился.</p>
+        </article>
+        <article class="product-card  product-card--disabled">
+          <div class="product-card__wrapper  hover-default">
+            <svg class="product-card__border" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="326px" height="486px">
+              <path fill-rule="evenodd" stroke-width="4px" stroke-linecap="butt" stroke-linejoin="miter" d="M310.000,482.000 L14.000,482.000 C7.373,482.000 2.000,476.627 2.000,470.000 L2.000,45.000 L45.000,2.000 L310.000,2.000 C316.627,2.000 322.000,7.372 322.000,14.000 L322.000,470.000 C322.000,476.627 316.627,482.000 310.000,482.000 Z" />
+            </svg>
+            <div class="product-card__info">
+              <p class="product-card__catch">Сказочное заморское яство</p>
+              <p class="product-card__cancel">Котэ не одобряет?</p>
+              <h2 class="product-card__title">Нямушка <span class="product-card__title--small">с курой</span></h2>
+              <ul class="product-card__list">
+                <li><b>100</b> порций</li>
+                <li><b>5</b> мышей в подарок</li>
+                <li>заказчик доволен</li>
+              </ul>
+            </div>
+            <img src="img/cat.png" alt="серый пушистый кот с логотипом компании на ошейнике" width="260" height="276"
+              class="product-card__img">
+            <div class="product-card__badge  badge"><span class="badge__text"><b class="badge__text--num">5</b> кг</span></div>
           </div>
-          <img src="img/cat.png" alt="серый пушистый кот с логотипом компании на ошейнике" width="260" height="276"
-            class="product-card__img">
-          <div class="product-card__badge badge"><span class="badge__text"><b class="badge__text--num">2</b> кг</span></div>
-        </div>
-        <p class="product-card__caption  product-card__caption--default">
-          Чего сидишь? Порадуй котэ, <button type="button" class="product-card__btn">купи.</button>
-        </p>
-        <p class="product-card__caption  product-card__caption--selected">Головы щучьи с чесноком да свежайшая
-          сёмгушка.</p>
-        <p class="product-card__caption  product-card__caption--disabled">Печалька, с рыбой закончился.</p>
-      </article>
-      <article class="product-card  product-card--disabled">
-        <div class="product-card__wrapper  hover-default">
-          <svg class="product-card__border" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="326px" height="486px">
-            <path fill-rule="evenodd" stroke-width="4px" stroke-linecap="butt" stroke-linejoin="miter" d="M310.000,482.000 L14.000,482.000 C7.373,482.000 2.000,476.627 2.000,470.000 L2.000,45.000 L45.000,2.000 L310.000,2.000 C316.627,2.000 322.000,7.372 322.000,14.000 L322.000,470.000 C322.000,476.627 316.627,482.000 310.000,482.000 Z" />
-          </svg>
-          <div class="product-card__info">
-            <p class="product-card__catch">Сказочное заморское яство</p>
-            <p class="product-card__cancel">Котэ не одобряет?</p>
-            <h2 class="product-card__title">Нямушка <span class="product-card__title--small">с курой</span></h2>
-            <ul class="product-card__list">
-              <li><b>100</b> порций</li>
-              <li><b>5</b> мышей в подарок</li>
-              <li>заказчик доволен</li>
-            </ul>
-          </div>
-          <img src="img/cat.png" alt="серый пушистый кот с логотипом компании на ошейнике" width="260" height="276"
-            class="product-card__img">
-          <div class="product-card__badge  badge"><span class="badge__text"><b class="badge__text--num">5</b> кг</span></div>
-        </div>
-        <p class="product-card__caption  product-card__caption--default">
-          Чего сидишь? Порадуй котэ, <button type="button" class="product-card__btn">купи.</button>
-        </p>
-        <p class="product-card__caption  product-card__caption--selected">Филе из цыплят с трюфелями в бульоне.</p>
-        <p class="product-card__caption  product-card__caption--disabled">Печалька, с курой закончился.</p>
-      </article>
-    </section>
-  </main>
+          <p class="product-card__caption  product-card__caption--default">
+            Чего сидишь? Порадуй котэ, <button type="button" class="product-card__btn">купи.</button>
+          </p>
+          <p class="product-card__caption  product-card__caption--selected">Филе из цыплят с трюфелями в бульоне.</p>
+          <p class="product-card__caption  product-card__caption--disabled">Печалька, с курой закончился.</p>
+        </article>
+      </section>
+    </main>
+  </div>
   <script src="js/main.js"></script>
 </body>
 

@@ -13,9 +13,7 @@ html {
 
 body {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100%;
+  flex-direction: row;
   margin: 0;
   font-family: "Trebuchet MS Regular", "Arial", sans-serif;
   font-weight: normal;
