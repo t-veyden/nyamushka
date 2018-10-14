@@ -4,6 +4,12 @@
   box-sizing: inherit;
 }
 
+@font-face {
+  font-family: "Exo 2";
+  src: local("Exo2"), local("Exo 2"), url(../fonts/Exo2.otf) format("opentype");
+  font-weight: 100;
+}
+
 html {
   height: 100%;
   font-size: 16px;
