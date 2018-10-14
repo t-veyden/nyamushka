@@ -4,7 +4,11 @@
   &__slogan {
     margin-bottom: 20px;
     font-family: "Exo 2", sans-serif;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 100;
+
+    @media ($tablet) {
+      font-size: 36px;
+    }
   }
 }
